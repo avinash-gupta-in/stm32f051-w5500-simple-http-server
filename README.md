@@ -1,5 +1,7 @@
 The Wiznet IO (Ethernet Offload) library comes with a simple and small HTTP web server code. In this chapter we will understand its structure and working. Then we will use it to serve a small webpage from our STM32 to a web browser that is running on our PC.
 
+![W5500 Web Server](https://extremeelectronics.co.in/github/w5500/stm32-w5500-http-server.png)
+
 The HTTP Server Init function takes the number of sockets to use and an array of socket IDs. So, we define some constants and this array.
 
 ```
@@ -28,6 +30,20 @@ uint8_t http_tx_buff[DATA_BUF_SIZE];
 httpServer_init(http_tx_buff, http_rx_buff, MAX_HTTPSOCK, socknumlist);
 reg_httpServer_cbfunc(NULL, NULL);
 ```
+
+## Hardware Details
+The code is written to run on a STM32F051 ARM Cortex M0 MCU. The W5500 is attached to the SPI Port and shown in table below.
+
+| W5500    | STM32   |
+| -------- | ------- |
+| MISO     | $250    |
+| MOSI     | $80     |
+| SCK      | $420    |
+| CS       |         |
+| RST      |         |
+| INT      | NC      |
+
+
 
 ## More information
 To learn more about w5500 Ethernet controller and its interface with STM32, please subsribe to our course on Udemy.
