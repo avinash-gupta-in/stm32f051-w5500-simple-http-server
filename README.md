@@ -36,6 +36,7 @@ reg_httpServer_cbfunc(NULL, NULL);
 ## Hardware Details
 
 ![w5500 module](https://extremeelectronics.co.in/github/w5500/w5500-module.jpg)
+![STM32 Discovery Kit](https://extremeelectronics.co.in/github/w5500/stm32f051-discovery-board.jpg)
 
 The code is written to run on a STM32F051 ARM Cortex M0 MCU. The W5500 is attached to the SPI Port and shown in table below.
 
