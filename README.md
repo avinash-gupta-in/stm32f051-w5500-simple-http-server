@@ -34,6 +34,9 @@ reg_httpServer_cbfunc(NULL, NULL);
 ```
 
 ## Hardware Details
+
+![w5500 module](https://extremeelectronics.co.in/github/w5500/w5500-module.jpg)
+
 The code is written to run on a STM32F051 ARM Cortex M0 MCU. The W5500 is attached to the SPI Port and shown in table below.
 
 | W5500    | STM32   |
