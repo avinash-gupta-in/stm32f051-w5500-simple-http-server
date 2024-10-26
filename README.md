@@ -28,3 +28,7 @@ uint8_t http_tx_buff[DATA_BUF_SIZE];
 httpServer_init(http_tx_buff, http_rx_buff, MAX_HTTPSOCK, socknumlist);
 reg_httpServer_cbfunc(NULL, NULL);
 ```
+
+##More information
+To learn more about w5500 Ethernet controller and its interface with STM32, please subsribe to our course on Udemy.
+[Udemy's course on W5500 Interfacing](https://www.udemy.com/course/ethernet-on-stm32-using-w5500/)
