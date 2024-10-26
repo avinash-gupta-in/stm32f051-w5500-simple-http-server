@@ -46,6 +46,10 @@ The code is written to run on a STM32F051 ARM Cortex M0 MCU. The W5500 is attach
 NC=No Connection
 SCS=Chip Select (Active Low)
 
+To view the debug output of the program we need a USB to Serial convertor like FT232RL (3.3V Version only)
+The debug messages comes out on the TX pin of the USART2 peripheral of the STM32F051. This is **PA2**.
+The baud rate is 38400. User RealTerm to view the outputs.
+
 
 
 ## More information
