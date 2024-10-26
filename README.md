@@ -50,7 +50,7 @@ To view the debug output of the program we need a USB to Serial convertor like F
 The debug messages comes out on the TX pin of the USART2 peripheral of the STM32F051. This is **PA2**.
 The baud rate is 38400. User RealTerm to view the outputs.
 
-
+![real term showing output of http webserver](https://extremeelectronics.co.in/github/w5500/w5500-webserver-realterm.png)
 
 ## More information
 To learn more about w5500 Ethernet controller and its interface with STM32, please subsribe to our course on Udemy.
