@@ -36,12 +36,15 @@ The code is written to run on a STM32F051 ARM Cortex M0 MCU. The W5500 is attach
 
 | W5500    | STM32   |
 | -------- | ------- |
-| MISO     | $250    |
-| MOSI     | $80     |
-| SCK      | $420    |
-| CS       |         |
-| RST      |         |
+| MISO     | PA6     |
+| MOSI     | PA7     |
+| SCLK     | PA5     |
+| SCS      | PA1     |
+| RST      | PA0     |
 | INT      | NC      |
+
+NC=No Connection
+SCS=Chip Select (Active Low)
 
 
 
