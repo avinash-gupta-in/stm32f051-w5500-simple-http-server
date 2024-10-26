@@ -1,4 +1,4 @@
-# STM32 W5500 HTTP WebServer
+# STM32 W5500 HTTP WebServer Example
 
 The Wiznet IO (Ethernet Offload) library comes with a simple and small HTTP web server code. In this chapter we will understand its structure and working. Then we will use it to serve a small webpage from our STM32 to a web browser that is running on our PC.
 
